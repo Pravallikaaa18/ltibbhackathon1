@@ -23,7 +23,7 @@ spec:
         - name: www
           mountPath: /usr/share/nginx/html
       imagePullSecrets:
-            - name: dockerhub-secret
+            - name: secret
   volumeClaimTemplates:
   - metadata:
       name: www
